@@ -1,0 +1,93 @@
+@import '../../../css/_colors';
+@import '../../../css/_fonts';
+
+/* Page CSS */
+.main{
+	background-color: $grey;
+	margin-bottom: -99999px;
+	padding-bottom: 99999px;
+	.main_content{
+	//	border:1px solid $black-ish;
+		color:$gunmetal;
+		margin-top:5px;
+		min-height: 400px;
+		h1{
+			font-family:"onyx";
+			font-size:46px;		
+		}
+		h2{
+			font-family:"onyx";
+			font-size:40px;		
+		}
+		.note{
+			font-size:90%;
+			font-style: italic;
+		}
+		.italic{
+			font-style: italic;
+		}
+		dd{
+			margin-bottom:25px;
+		}
+		article{
+			display: block;
+			position: relative;
+			.callout{
+				display: block;
+				position: relative;
+			}
+		}
+		.table-bordered{
+			td{
+				border: 1px solid $gunmetal;
+				padding: 3px;
+			}
+		}
+		.fake-space{
+			height: 100px;
+		}
+		.red{
+			color: $red;
+		}
+	}
+	.justify p{
+		text-align: justify;
+	}
+}
+@media (min-width: 1000px) {
+	.main {
+		.main_content{
+			.agenda{
+				width: 800px;
+			}
+			article{
+				.logo{
+					position: absolute;
+					right: -260px;
+					top: 65px;
+					width:250px;
+				}
+				.diamond{
+					position: absolute;
+					right: -260px;
+					top: -97px;
+					width:250px;
+				}
+				.callout{
+					position: absolute;
+					right: -260px;
+					top: -98px;
+					width:296px;
+				}
+				.vision-2020{
+					position: absolute;
+					right: 7px;
+					top: -1px;
+					width:296px;
+				}
+			}
+		}
+	}
+}
+
+/* End Page CSS */

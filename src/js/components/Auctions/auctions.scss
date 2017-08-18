@@ -1,0 +1,11 @@
+@import '../../../css/_colors';
+
+.auction-list{
+    li{
+        background-color: darken($grey, 10%);
+        border: 1px solid darken($grey, 15%);
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 5px 15px 5px 10px;
+    }
+}

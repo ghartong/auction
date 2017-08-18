@@ -1,0 +1,21 @@
+@import '../../../css/_colors';
+@import '../../../css/_fonts';
+
+/* Title CSS */
+.title{
+	nav{
+		background-color: $gunmetal;
+		color: lighten($blue, 50%);
+		font-family: 'gothic';
+		padding: 10px 0 10px 25px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.navbar-default .navbar-nav>li>a{
+		color: lighten($blue, 50%);		
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color: darken($blue, 50%);		
+	}
+}
+/* End Title CSS */

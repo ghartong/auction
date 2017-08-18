@@ -1,0 +1,29 @@
+@import '_colors';
+/*$bg-img: url('/img/header_bg.png');*/
+
+/* Global CSS */
+body {
+	background:$white;
+	/*background-image: $bg-img;*/
+	background-repeat: repeat-x;
+	background-position: top left;
+	font-family:sans-serif;
+	font-size:2em;
+}
+
+h1, h2{
+	color:$gunmetal;
+	font-size: 2em;
+	a, a:hover, a:link, a:active{
+		text-decoration: none;
+	}
+}
+
+h3{
+	font-weight: bold;
+}
+
+#mainrow{
+	overflow: hidden;
+}
+/* END Global CSS */
